@@ -16,9 +16,9 @@ add filesystem mapping of /Users/James/byodemo to /data
 
 Putty Configuration
 --------------------
-vagrant ssh to get location of private key .vagrant/machines/default/virtualbox/private_key
+run vagrant ssh to get location of private key: .vagrant/machines/default/virtualbox/private_key
 
-puttygen to convert key to format usuable by putty, store in putty profile for Vagrant_Photon
+use puttygen to convert key to format usuable by putty, store in putty profile for Vagrant_Photon
 
 Docker Configuration
 --------------------
