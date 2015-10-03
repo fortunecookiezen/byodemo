@@ -24,14 +24,14 @@ Docker Configuration
 --------------------
 Enable docker: 
 
->systemctl docker enable
+  systemctl docker enable
 
 to run docker image:
 
->docker run -p 8080:8080 -t fortunecookiezen/gs-spring-boot-docker
+  docker run -p 8080:8080 -t fortunecookiezen/gs-spring-boot-docker
 
 Useful Commands
 ----------------
 dos2unix (removes DOS formatting, needed when running gradlew):
 
->tr -d '\015' \<DOS-file \>UNIX-file
+  tr -d '\015' \<DOS-file \>UNIX-file
